@@ -10,3 +10,8 @@ description = "My first package"
 dependencies = [
   "numpy",
 ]
+
+[project.optional-dependencies]
+dev = [
+  "pre-commit",
+]
